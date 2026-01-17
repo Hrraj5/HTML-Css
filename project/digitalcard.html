@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Digital Card</title>
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap");
+      body {
+        margin: 0;
+        padding: 0;
+        height: 100vh;
+        font-family: Arial, Helvetica, sans-serif;
+      }
+      .nikeimage {
+        width: 300px;
+        object-fit: contain;
+        border-radius: 7px;
+      }
+      .image-container {
+        display: flex;
+        justify-content: center;
+        
+      }
+      .container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100%;
+        background: linear-gradient(135deg, #ced4d8, #8e9397);
+      }
+      .content {
+        border: 5px solid #dcd7ae;
+        border-radius: 10px;
+        width: 300px;
+        height: 400px;
+      }
+      p {
+        font-family: "Noto Sans", sans-serif;
+        text-align: center;
+        color:#aa7731;
+        font-weight: bold;
+      }
+      .button-group{
+        display: flex;
+        justify-content: space-around;
+      }
+      button {
+        border-radius: 5px;
+        padding: 5px;
+        background-color: #a49b56;
+        color: #fff;
+        border: none;
+        cursor: pointer;
+        width:110px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="content">
+        <div class="image-container">
+          <img
+            class="nikeimage"
+            src="../images/nikeimage.png"
+            alt="Coming Soon"
+          />
+        </div>
+
+        <p>Building next-gen shoes!</p>
+        <div class="button-group">
+          <button type="submit"><img src="../images/ruppee.png"/>But Now</button>
+          <button type="submit"><img src="../images/cart.png"/>Add To Cart</button>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
