@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Intro Card</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+        body{
+            padding:0;
+            margin:0;
+            height:100vh;
+            font-family: "Inter", sans-serif;
+            min-width: 100px;
+        }
+        .container{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background: linear-gradient(135deg,#916f40,#741c12);
+            height:100%
+        }
+        .content{
+            border: 1px solid #916f40;
+            border-style: groove;
+            border-radius: 8px;
+            padding: 20px;
+        }
+        span{
+            display: block;
+        }
+        .name {
+            color:  #ffd699;
+            font-weight: bold;
+            font-size: 48px;
+        }
+        .designation{
+            color:#eab676;
+            font-size: 20px;
+            text-transform: capitalize;
+            letter-spacing: 4px;
+            margin-top: 12px;
+        }
+        .divider {
+            width: 100%;
+            height: 1px;
+            margin: 24px 0;
+            background: linear-gradient(
+                to right,
+                transparent,
+                rgba(0, 0, 0, 0.6),
+                transparent
+            );
+        }
+        .social-media{
+            color:#eab676;
+            font-size: 14px;
+        }
+        .item{
+            display: flex;
+            margin-bottom: 10px;
+            gap: 10px;
+        }
+        a{
+            text-decoration: none;
+            color: #eab676;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="content">
+            <div class="name">
+                <span>Hrithik<span>
+                    <span>Raj</span> 
+            </div>
+            <div class="designation">
+                Senior Software Engineer
+            </div>
+            <div class="divider">
+            </div>
+            <div class="social-media">
+                <div class="item">
+                    <div class="img">
+                    <svg xmlns="http://www.w3.org/2000/svg" height="18px" viewBox="0 -960 960 960" width="24px" fill="#aa4f45"><path d="M160-160q-33 0-56.5-23.5T80-240v-480q0-33 23.5-56.5T160-800h640q33 0 56.5 23.5T880-720v480q0 33-23.5 56.5T800-160H160Zm320-280L160-640v400h640v-400L480-440Zm0-80 320-200H160l320 200ZM160-640v-80 480-400Z"/></svg>
+                    </div>
+                    <div class="email-id">
+                        raj.hrdeveloper@gmail.com
+                    </div>
+                </div>
+                <div class="item">
+                   <div class="img">
+                    <svg xmlns="http://www.w3.org/2000/svg" height="18px" viewBox="0 -960 960 960" width="24px" fill="#aa4f45"><path d="M72-144q-29.7 0-50.85-21.15Q0-186.3 0-216v-528q0-29.7 21.15-50.85Q42.3-816 72-816h816q29.7 0 50.85 21.15Q960-773.7 960-744v528q0 29.7-21.15 50.85Q917.7-144 888-144H72Zm520.81-72H888v-528H72v528q52-56 120-88t143.5-32q75.5 0 141 32.5T592.81-216ZM336-384q50 0 85-35t35-85q0-50-35-85t-85-35q-50 0-85 35t-35 85q0 50 35 85t85 35Zm400 144 80-79-48-65h-78q-8-23-13-47.14-5-24.13-5-48.86 0-24 5-48t13-47h78l48-65-80-80q-57 42-84.5 106T624-480q0 70 27.5 134T736-240Zm-551 24h299q-33-22-70.5-35t-78-13q-40.5 0-79.5 11.5T185-216Zm151-240q-20.4 0-34.2-13.8Q288-483.6 288-504q0-20.4 13.8-34.2Q315.6-552 336-552q20.4 0 34.2 13.8Q384-524.4 384-504q0 20.4-13.8 34.2Q356.4-456 336-456Zm144-24Z"/></svg>
+                   </div>
+                <div class="phone-number">
+                    7992348610
+                </div>
+                </div>
+                <div class="item">
+                    <div class="img">
+                        <svg xmlns="http://www.w3.org/2000/svg" height="18px" viewBox="0 -960 960 960" width="24px" fill="#aa4f45"><path d="M0-240v-59q0-51 45-80t123-29q15 0 30 1.5t30 4.5q-17 20-26.5 45t-9.5 50.56V-240H0Zm240 0v-61q0-27.86 14.5-50.93T293-387q44-22 91-33.5t95.53-11.5Q529-432 576-420.5t91 33.5q24 12 38.5 35.07T720-301v61H240Zm528 0v-67.37q0-26.95-9.5-50.79T732-402q17-3 31.5-4.5T792-408q78 0 123 29t45 80v59H768Zm-454-72h332q-7-17-59.5-32.5T480-360q-54 0-106.5 15.5T314-312ZM167.79-456Q138-456 117-477.03q-21-21.02-21-50.55Q96-558 117.03-579q21.02-21 50.55-21Q198-600 219-579.24t21 51.45Q240-498 219.24-477t-51.45 21Zm624 0Q762-456 741-477.03q-21-21.02-21-50.55Q720-558 741.03-579q21.02-21 50.55-21Q822-600 843-579.24t21 51.45Q864-498 843.24-477t-51.45 21ZM479.5-480q-49.5 0-84.5-35t-35-85q0-50 35-85t85-35q50 0 85 35t35 85.5q0 49.5-35 84.5t-85.5 35Zm.5-72q20.4 0 34.2-13.8Q528-579.6 528-600q0-20.4-13.8-34.2Q500.4-648 480-648q-20.4 0-34.2 13.8Q432-620.4 432-600q0 20.4 13.8 34.2Q459.6-552 480-552Zm0 240Zm0-288Z"/></svg>
+                    </div>
+                    <div class="linked-in">
+                        <a href="https://www.linkedin.com/in/hrithik-raj-3b07b3156">hrithik.raj</a>
+                    </div>
+                    
+                </div>
+            </div>
+            
+        </div>
+    </div>
+</body>
+</html>
